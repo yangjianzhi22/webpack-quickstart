@@ -67,22 +67,32 @@ module.exports = {
 
 ```
 {
-    "name": "webpack-demo",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "webpack --config webpack.config.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "webpack": "^4.0.1",
-        "webpack-cli": "^2.0.9",
-        "lodash": "^4.17.5"
-    }
+  "name": "webpack-quickstart",
+  "version": "1.0.0",
+  "description": "webpack入门应用",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangjianzhi22/webpack-quickstart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangjianzhi22/webpack-quickstart/issues"
+  },
+  "homepage": "https://github.com/yangjianzhi22/webpack-quickstart#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
 ```
 
